@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teatro Sky</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style/flex.css">
+    <link rel="stylesheet" href="./assets/style/grid.css">
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="menu__item">
+                    <h1 class="menu__titulo">Teatro Sky</h1>
+                </li>
+                <li class="menu__item"><a href="#" class="">Programação</a></li>
+                <li class="menu__item"> <a href="#">Categorias</a></li>
+                <li class="menu__item"><a href="#">Seu local</a></li>
+
+                <li class="menu__item menu__pesquisar">
+                    <label class="menu__label" for="pesquisar"><input class="menu__input" type="search" name="" placeholder="O que você procura?"
+                        id="pesquisar"></label>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="principal">
+
+        <section class="banner">
+            <img src="./assets/img/banner-1.jpg" alt="Foto de três dançarinas">
+            <img src="./assets/img/banner-2.jpg" alt="Foto de um microfone">
+            <img src="./assets/img/banner-3.jpg" alt="Foto de um homem vendo uma exposição de arte">
+            <img src="./assets/img/banner-4.jpg" alt="Foto de um casal de atores beijando">
+        </section>
+
+        <section class="categorias">
+            <h2 class="categorias__titulo">Categorias</h2>
+            <ul class="categorias__lista">
+                <li class="categorias__item">Shows</li>
+                <li class="categorias__item">Teatro</li>
+                <li class="categorias__item">Festivais</li>
+                <li class="categorias__item">Cinema</li>
+                <li class="categorias__item">Arte</li>
+                <li class="categorias__item">Fotografia</li>
+                <li class="categorias__item">Tecnologia</li>
+                <li class="categorias__item">Design</li>
+            </ul>
+            <div class="categorias__destaques">
+                <div class="destaques">
+                    <h3 class="destaques__titulo">Destaques:</h3>
+                    <div class="destaques__barra"></div>
+                    <div>
+                        <img src="./assets/img/icone-seta-voltar.png">
+                        <img src="./assets/img/icone-seta-avancar.png">
+                    </div>
+                </div>
+            </div>
+            <div class="categorias__imagem"></div>
+        </section>
+
+        <section class="eventos">
+            <h2 class="eventos__titulo">Próximos eventos</h2>
+            <ul class="eventos__lista">
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-1.jpg" alt="Banda se apresentando">
+                    <h3>Os Normais</h3>
+                    <h4>25/02/23</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-2.jpg" alt="Show de Funk">
+                    <h3>Show MC Zé Leste</h3>
+                    <h4>02/03/23</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-3.jpg" alt="Grupo de dança">
+                    <h3>Dançarinos de Seul</h3>
+                    <h4>05/03/23</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-4.jpg" alt="Duas mulheres em um cinema">
+                    <h3>Cine Secreto</h3>
+                    <h4>06/03/23</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-5.jpg" alt="Troféu melhores do Ano">
+                    <h3>Troféu melhores do ano</h3>
+                    <h4>10/03/23</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+            </ul>
+        </section>
+        <section class="agenda">
+            <h2 class="agenda__titulo">Coloque na sua agenda!</h2>
+            <ul class="agenda__lista">
+                <li class="agenda__item">
+                    <img src="./assets/img/evento-1.jpg" alt="Banda se apresentando">
+                    <div class="agenda__informacoes">
+                        <h3>Fevereiro</h3>
+                        <h4>25 (sábado)</h4>
+                        <h5>20:00</h5>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h6>Os Normais</h6>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="./assets/img/evento-2.jpg" alt="Show de Funk">
+                    <div class="agenda__informacoes">
+                        <h3>Março</h3>
+                        <h4>02 (quinta)</h4>
+                        <h5>19:30</h5>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h6>Show MC Zé Leste</h6>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="./assets/img/evento-3.jpg" alt="Grupo de dança">
+                    <div class="agenda__informacoes">
+                        <h3>Março</h3>
+                        <h4>05 (domingo)</h4>
+                        <h5>15:00</h5>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h6>Dançarinos de Seul</h6>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="./assets/img/evento-4.jpg" alt="Duas mulheres em um cinema">
+                    <div class="agenda__informacoes">
+                        <h3>Março</h3>
+                        <h4>06 (segunda)</h4>
+                        <h5>21:00</h5>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h6>Cine Secreto</h6>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="rodape">
+        <ul class="rodape__lista">
+            <li>
+                <h3 class="rodape__titulo">Encontre eventos</h3>
+            </li>
+            <li>Esta semana</li>
+            <li>Este fim de semana</li>
+            <li>Este mês</li>
+            <li>Este trimestre</li>
+        </ul>
+        <ul class="rodape__lista">
+            <li>
+                <h3 class="rodape__titulo">Cidades</h3>
+            </li>
+            <li>São Paulo</li>
+            <li>Rio de Janeiro</li>
+            <li>Porto Alegre</li>
+            <li>Salvador</li>
+        </ul>
+        <ul class="rodape__lista">
+            <li>
+                <h3 class="rodape__titulo">Categorias</h3>
+            </li>
+            <li>Shows</li>
+            <li>Arte</li>
+            <li>Teatro</li>
+            <li>Fotografia</li>
+            <li>Festivais</li>
+            <li>Design</li>
+            <li>Cinema</li>
+            <li>Tecnologia</li>
+        </ul>
+        <ul class="rodape__lista">
+            <li>
+                <h3 class="rodape__titulo">Sobre nós</h3>
+            </li>
+            <li>Carreiras</li>
+            <li>História</li>
+            <li>Contato</li>
+            <li>Localização</li>
+        </ul>
+        <ul class="rodape__lista">
+            <li>
+                <h3 class="rodape__titulo">Anuncie seu evento</h3>
+            </li>
+            <li>Música e festas</li>
+            <li>Cursos e workshops</li>
+            <li>Esportivo</li>
+            <li>Congresso</li>
+            <li>Religioso</li>
+            <li>Online</li>
+        </ul>
+        <div class="rodape__logo">
+            <p>Desenvolvido por Marcos Vinícius Rocha</p>
+        </div>
+    </footer>
+</body>
+
+</html>
